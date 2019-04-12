@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1646cdd6-925c-4000-869a-0ef4cfc89b3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/payments/PaymentProcessorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,34 +36,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentGateway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="22" />
               <folding>
-                <element signature="e#110#111#0" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/payments/PaymentProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="246">
+              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,10 +122,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Dice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/player/Player.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/payments/PaymentsGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/payments/PaymentGateway.java" />
+        <option value="$PROJECT_DIR$/src/main/java/payments/PaymentResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/payments/PaymentRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/payments/PaymentProcessor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/payments/PaymentProcessorTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="313" />
     <option name="y" value="-17" />
     <option name="width" value="814" />
@@ -146,15 +180,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javatests" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
@@ -176,6 +202,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="payments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,6 +227,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="payments" />
       <recent name="com.platzi.javatests.player" />
       <recent name="com.platzi.javatests.util" />
     </key>
@@ -200,6 +235,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="payments" />
       <recent name="com.platzi.javatests.player" />
     </key>
   </component>
@@ -215,7 +251,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.winsWhenDiceNumeberBig">
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest.payment_is_wrong">
     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -231,33 +267,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.mediumWhenHasLettersAndNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentProcessorTest.payment_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="PATTERN" value="payments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.PasswordUtilTest" />
-      <option name="METHOD_NAME" value="mediumWhenHasLettersAndNumbers" />
+      <option name="PACKAGE_NAME" value="payments" />
+      <option name="MAIN_CLASS_NAME" value="payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_correct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordUtilTest.mediumWhenHasLettersNumbersSymbols" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentProcessorTest.payment_is_wrong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.util.*" />
+          <option name="PATTERN" value="payments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.util.PasswordUtilTest" />
-      <option name="METHOD_NAME" value="mediumWhenHasLettersNumbersSymbols" />
+      <option name="PACKAGE_NAME" value="payments" />
+      <option name="MAIN_CLASS_NAME" value="payments.PaymentProcessorTest" />
+      <option name="METHOD_NAME" value="payment_is_wrong" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -297,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlayerTest.winsWhenDiceNumeberBig" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_wrong" />
+        <item itemvalue="JUnit.PaymentProcessorTest.payment_is_correct" />
         <item itemvalue="JUnit.PlayerTest.loosesWhenDiceNumeberIsTooLow" />
+        <item itemvalue="JUnit.PlayerTest.winsWhenDiceNumeberBig" />
         <item itemvalue="JUnit.PasswordUtilTest" />
-        <item itemvalue="JUnit.PasswordUtilTest.mediumWhenHasLettersNumbersSymbols" />
-        <item itemvalue="JUnit.PasswordUtilTest.mediumWhenHasLettersAndNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -319,21 +355,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordUtilTest_mediumWhenHasLettersNumbersSymbols - 2019.04.12 at 14h 34m 23s.xml">
-      <configuration name="PasswordUtilTest.mediumWhenHasLettersNumbersSymbols" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PasswordUtilTest_mediumWhenHasLettersNumbersSymbols - 2019.04.12 at 14h 37m 57s.xml">
-      <configuration name="PasswordUtilTest.mediumWhenHasLettersNumbersSymbols" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PasswordUtilTest - 2019.04.12 at 14h 38m 13s.xml">
-      <configuration name="PasswordUtilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_loosesWhenDiceNumeberIsTooLow - 2019.04.12 at 16h 01m 54s.xml">
-      <configuration name="PlayerTest.loosesWhenDiceNumeberIsTooLow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_loosesWhenDiceNumeberIsTooLow - 2019.04.12 at 16h 02m 04s.xml">
-      <configuration name="PlayerTest.loosesWhenDiceNumeberIsTooLow" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_loosesWhenDiceNumeberIsTooLow - 2019.04.12 at 16h 02m 14s.xml">
       <configuration name="PlayerTest.loosesWhenDiceNumeberIsTooLow" configurationId="JUnit" />
     </history-entry>
@@ -348,6 +369,21 @@
     </history-entry>
     <history-entry file="PlayerTest_winsWhenDiceNumeberBig - 2019.04.12 at 16h 14m 17s.xml">
       <configuration name="PlayerTest.winsWhenDiceNumeberBig" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_loosesWhenDiceNumeberIsTooLow - 2019.04.12 at 17h 02m 48s.xml">
+      <configuration name="PlayerTest.loosesWhenDiceNumeberIsTooLow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentProcessorTest_payment_is_correct - 2019.04.12 at 17h 42m 00s.xml">
+      <configuration name="PaymentProcessorTest.payment_is_correct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentProcessorTest_payment_is_correct - 2019.04.12 at 17h 56m 52s.xml">
+      <configuration name="PaymentProcessorTest.payment_is_correct" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentProcessorTest_payment_is_wrong - 2019.04.12 at 17h 59m 04s.xml">
+      <configuration name="PaymentProcessorTest.payment_is_wrong" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PaymentProcessorTest_payment_is_wrong - 2019.04.12 at 17h 59m 44s.xml">
+      <configuration name="PaymentProcessorTest.payment_is_wrong" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -373,7 +409,7 @@
       <window_info anchor="bottom" id="Version Control" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
@@ -451,6 +487,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -458,10 +504,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/player/PlayerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/payments/PaymentProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/payments/PaymentProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
