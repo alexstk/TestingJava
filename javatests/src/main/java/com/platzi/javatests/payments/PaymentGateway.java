@@ -1,4 +1,4 @@
-package payments;
+package com.platzi.javatests.payments;
 
 public interface PaymentGateway {
 
