@@ -7,22 +7,23 @@ import org.mockito.Mockito;
 import static org.junit.Assert.*;
 
 public class PaymentProcessorTest {
-    PaymentGateway paymentGateway;
 
-    PaymentProcessor paymentProcessor;
+    private PaymentGateway paymentGateway;
+    private PaymentProcessor paymentProcessor;
 
-    // Partes de un test
-    // 1.Preparacion de los objetos
-    // 2.Ejecucion del metodo
-    // 3.Comprobacion del resultado
+    // Tests's Parts
+    // 1.Objects's preparation
+    // 2.Method execution
+    // 3.Result check
 
-    // Con el @Before no quedan tan legibles las 3 partes pero queda mas organizado el test
-
+    // In this method are all common parts of all tests
+    // This is executed before each test. It means a clean stage each execution
     @Before
     public void setup(){
         paymentGateway = Mockito.mock(PaymentGateway.class);
         paymentProcessor = new PaymentProcessor(paymentGateway);
     }
+    // Con el @Before no quedan tan legibles las 3 partes pero queda mas organizado el test
 
     @Test
     public void payment_is_correct() {
