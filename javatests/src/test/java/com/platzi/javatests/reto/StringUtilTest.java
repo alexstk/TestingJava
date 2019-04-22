@@ -12,12 +12,12 @@ public class StringUtilTest {
     }
 
     @Test
-    public void nullIsEmpty() {
+    public void nullString() {
         assertTrue(StringUtil.isEmpty(null));
     }
 
     @Test
-    public void whiteSpaceIsEmpty() {
+    public void whiteSpace() {
         assertTrue(StringUtil.isEmpty(" "));
     }
 
