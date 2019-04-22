@@ -1,9 +1,9 @@
 package com.platzi.javatests.util;
 
-import org.junit.Test;
+        import org.junit.Test;
 
-import static com.platzi.javatests.util.PasswordUtil.SecurityLevel.*;
-import static org.junit.Assert.*;
+        import static com.platzi.javatests.util.PasswordUtil.SecurityLevel.*;
+        import static org.junit.Assert.*;
 
 public class PasswordUtilTest {
 
@@ -14,17 +14,17 @@ public class PasswordUtilTest {
 
     @Test
     public void weakWhenHasOnlyLetters() {
-       assertEquals(WEAK, PasswordUtil.assessPassword("abcdefgh"));
+        assertEquals(WEAK, PasswordUtil.assessPassword("abcdefgh"));
     }
 
     @Test
     public void mediumWhenHasLettersAndNumbers() {
-       assertEquals(MEDIUM, PasswordUtil.assessPassword("abcd1234"));
+        assertEquals(MEDIUM, PasswordUtil.assessPassword("abcd1234"));
     }
 
     @Test
     public void mediumWhenHasLettersNumbersSymbols() {
-       assertEquals(STRONG, PasswordUtil.assessPassword("abcd1234!"));
+        assertEquals(STRONG, PasswordUtil.assessPassword("abcd1234!"));
     }
 
 
