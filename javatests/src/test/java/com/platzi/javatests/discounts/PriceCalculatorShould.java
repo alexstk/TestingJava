@@ -8,9 +8,11 @@ import org.junit.Test;
 
 public class PriceCalculatorShould {
 
+    PriceCalculator calculator;
+
     @Before
     public void setup(){
-        PriceCalculator calculator = new PriceCalculator();
+        calculator = new PriceCalculator();
 
     }
 
