@@ -3,11 +3,8 @@ package com.platzi.javatests.movies.data;
 import com.platzi.javatests.movies.model.Genre;
 import com.platzi.javatests.movies.model.Movie;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.ResultSetExtractor;
 import org.springframework.jdbc.core.RowMapper;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.Collection;
 
 public class MovieRepositoryJdbc implements MovieRepository {
@@ -24,23 +21,34 @@ public class MovieRepositoryJdbc implements MovieRepository {
     }
 
     @Override
-    public Collection<Movie> findAll(){
-        RowMapper<Movie> movieMapper = new RowMapper<Movie>() {
-            @Override
-            public Movie mapRow(ResultSet resultSet, int rowNum) throws SQLException {
-                return new Movie(
-                    resultSet.getInt("id"),
-                    resultSet.getString("name"),
-                    resultSet.getInt("minutes"),
-                    Genre.valueOf(resultSet.getString("genre"))
-                );
-            }
-        };
-        jdbcTemplate.query("select * from movies", movieMapper);
+    public Collection<Movie> findAll() {
+        return jdbcTemplate.query("select * from movies", movieMapper);
     }
 
     @Override
     public void addOrUpdate(Movie movie) {
 
     }
+
+    // Creating a class from an Interface using lambda because RowMapper is a functional interface
+    private static RowMapper<Movie> movieMapper = (resultSet, rowNum) -> new Movie(
+            resultSet.getInt("id"),
+            resultSet.getString("name"),
+            resultSet.getInt("minutes"),
+            Genre.valueOf(resultSet.getString("genre"))
+    );
+
+    /*// Creating a class from an Interface
+    private static RowMapper<Movie> movieMapperr = new RowMapper<Movie>() {
+        @Override
+        public Movie mapRow(ResultSet resultSet, int rowNum) throws SQLException {
+            return new Movie(
+                    resultSet.getInt("id"),
+                    resultSet.getString("name"),
+                    resultSet.getInt("minutes"),
+                    Genre.valueOf(resultSet.getString("genre"))
+            );
+        }
+    };
+    */
 }
