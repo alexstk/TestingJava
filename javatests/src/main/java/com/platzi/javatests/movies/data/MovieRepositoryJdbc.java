@@ -28,7 +28,13 @@ public class MovieRepositoryJdbc implements MovieRepository {
 
     @Override
     public void addOrUpdate(Movie movie) {
+        jdbcTemplate.update("insert into movies (name, minutes, genre) values (?, ?, ?)",
+                movie.getName(), movie.getMinutes(), movie.getGenre().toString());
+    }
 
+    @Override
+    public Collection<Movie> findByName(String name) {
+        return jdbcTemplate.query("select * from movies where lower(name) like ?", movieMapper, "%" + name.toLowerCase() + "%");
     }
 
     // Creating a class from an Interface using lambda because RowMapper is a functional interface
@@ -36,7 +42,8 @@ public class MovieRepositoryJdbc implements MovieRepository {
             resultSet.getInt("id"),
             resultSet.getString("name"),
             resultSet.getInt("minutes"),
-            Genre.valueOf(resultSet.getString("genre"))
+            Genre.valueOf(resultSet.getString("genre")),
+            resultSet.getString("director")
     );
 
     /*// Creating a class from an Interface

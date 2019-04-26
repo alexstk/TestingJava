@@ -39,16 +39,40 @@ public class MovieRepositoryIntegrationTest {
         Collection<Movie> movies = movieRepository.findAll();
 
         assertThat(movies, is(Arrays.asList(
-                new  Movie(1, "Dark Knight", 152, Genre.ACTION),
-                new  Movie(2, "Memento", 113, Genre.THRILLER),
-                new  Movie(3, "Matrix", 136, Genre.ACTION)
+                new  Movie(1, "Dark Knight", 152, Genre.ACTION, "Robert"),
+                new  Movie(2, "Memento", 113, Genre.THRILLER, "Ruso"),
+                new  Movie(3, "Matrix", 136, Genre.ACTION, "Neo"),
+                new  Movie(4, "Super 8", 137, Genre.ACTION, "Carl"),
+                new  Movie(5, "Super Man", 139, Genre.ACTION, "Louis")
         )));
     }
 
     @Test
     public void load_movie_by_id() {
         Movie movie = movieRepository.findById(2);
-        assertThat(movie, is(new  Movie(2, "Memento", 113, Genre.THRILLER)));
+        assertThat(movie, is(new  Movie(2, "Memento", 113, Genre.THRILLER, "Ruso")));
+    }
+
+    @Test
+    public void insert_a_movie() {
+        Movie movie = new Movie("Batman", 112, Genre.ACTION, "Ruppert");
+        movieRepository.addOrUpdate(movie);
+
+        Movie movieFromDb = movieRepository.findById(6);
+        assertThat(movieFromDb, is(new Movie(6,"Batman", 112, Genre.ACTION, "Ruppert")));
+    }
+
+    @Test
+    public void find_by_name() {
+        String name = "pEr";
+        Collection<Movie> actualMovies = movieRepository.findByName(name);
+
+        Collection<Movie> expectedMovies = Arrays.asList(
+                new  Movie(4, "Super 8", 137, Genre.ACTION, "Carl"),
+                new  Movie(5, "Super Man", 139, Genre.ACTION, "Louis")
+        );
+
+        assertThat(actualMovies, is(expectedMovies));
     }
 
     @After  // Another way to avoid this is use the @BeforeClass instead of @Before an @After

@@ -9,5 +9,6 @@ public interface MovieRepository {
     Movie findById(long id);
     Collection<Movie> findAll();
     void addOrUpdate(Movie movie);
+    Collection<Movie> findByName(String name);
 
 }
