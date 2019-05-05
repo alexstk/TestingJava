@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="609ed6b5-78a5-46ba-88c9-0de71e49ec6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,33 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/sql-scripts/test-data.sql">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="534">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/data/MovieRepositoryIntegrationTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="394">
+              <caret line="99" column="50" lean-forward="true" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -83,14 +74,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Mocie.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/sql-scripts/test-data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/data/MovieRepositoryIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java" />
       </list>
     </option>
   </component>
@@ -111,6 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,7 +135,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discounts" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
@@ -150,14 +143,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javatests" type="462c0819:PsiDirectoryNode" />
+              <item name="movies" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,6 +178,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/platzi/javatests" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -199,38 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest">
-    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.movies.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.data" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.data.MovieRepositoryIntegrationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MovieRepositoryIntegrationTest.load_all_movies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platzi.javatests.movies.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.data" />
-      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.data.MovieRepositoryIntegrationTest" />
-      <option name="METHOD_NAME" value="load_all_movies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MovieServiceShould">
     <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -246,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieServiceShould.return_movies_by_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceShould.return_movies_by_template_genre_director" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
@@ -256,13 +238,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.services" />
       <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.services.MovieServiceShould" />
-      <option name="METHOD_NAME" value="return_movies_by_genre" />
+      <option name="METHOD_NAME" value="return_movies_by_template_genre_director" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieServiceShould.return_movies_by_length" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieServiceShould.return_movies_by_template_id_minutes_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
@@ -272,7 +254,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.services" />
       <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.services.MovieServiceShould" />
-      <option name="METHOD_NAME" value="return_movies_by_length" />
+      <option name="METHOD_NAME" value="return_movies_by_template_id_minutes_genre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.services.MovieServiceShould" />
+      <option name="METHOD_NAME" value="return_movies_by_template_name_minutes_" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_genre_director" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platzi.javatests.movies.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platzi.javatests.movies.services" />
+      <option name="MAIN_CLASS_NAME" value="com.platzi.javatests.movies.services.MovieServiceShould" />
+      <option name="METHOD_NAME" value="return_movies_by_template_name_minutes_genre_director" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
-        <item itemvalue="JUnit.MovieRepositoryIntegrationTest.load_all_movies" />
         <item itemvalue="JUnit.MovieServiceShould" />
-        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_genre" />
-        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_length" />
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_template_name_minutes_genre_director" />
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_template_genre_director" />
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_template_id_minutes_genre" />
+        <item itemvalue="JUnit.MovieServiceShould.return_movies_by_template_name_minutes_" />
       </list>
     </recent_temporary>
   </component>
@@ -302,45 +316,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MovieServiceShould_return_movies_by_genre - 2019.04.24 at 14h 06m 55s.xml">
-      <configuration name="MovieServiceShould.return_movies_by_genre" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_genre - 2019.05.05 at 14h 44m 56s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_genre" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieServiceShould - 2019.04.24 at 14h 07m 00s.xml">
-      <configuration name="MovieServiceShould" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_genre - 2019.05.05 at 14h 48m 15s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_genre" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.25 at 10h 45m 40s.xml">
-      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_director - 2019.05.05 at 14h 48m 25s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_director" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 10h 46m 42s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_name_minutes_ - 2019.05.05 at 14h 51m 13s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 10h 49m 44s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_name_minutes_ - 2019.05.05 at 14h 51m 29s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 11h 43m 44s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_name_minutes_ - 2019.05.05 at 14h 57m 29s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 11h 44m 06s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_id_minutes_genre - 2019.05.05 at 15h 07m 49s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_id_minutes_genre" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 11h 49m 26s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_genre_director - 2019.05.05 at 15h 11m 27s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_genre_director" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest_load_all_movies - 2019.04.25 at 12h 50m 52s.xml">
-      <configuration name="MovieRepositoryIntegrationTest.load_all_movies" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_genre_director - 2019.05.05 at 15h 13m 32s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_genre_director" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MovieRepositoryIntegrationTest - 2019.04.25 at 13h 01m 15s.xml">
-      <configuration name="MovieRepositoryIntegrationTest" configurationId="JUnit" />
+    <history-entry file="MovieServiceShould_return_movies_by_template_name_minutes_genre_director - 2019.05.05 at 15h 15m 07s.xml">
+      <configuration name="MovieServiceShould.return_movies_by_template_name_minutes_genre_director" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project Explorer" order="0" weight="0.32969153" />
       <window_info id="Job Explorer" order="1" />
       <window_info id="DB Browser" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.21722364" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.18230277" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
@@ -351,15 +365,15 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="DB Execution Console" order="2" />
       <window_info anchor="bottom" id="Find" order="3" visible="true" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5437018" visible="true" weight="0.32839838" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.39973083" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.5437018" visible="true" weight="0.23943663" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4562982" side_tool="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993573" weight="0.32936078" />
       <window_info anchor="bottom" id="Extract Method" order="13" weight="0.32974428" />
       <window_info anchor="right" x="0" y="0" width="354" height="676" id="Documentation" order="0" side_tool="true" weight="0.32969153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -458,28 +472,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -493,31 +489,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/tdd/FizzBuzzTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/tdd/FizzBuzz.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/CoreMatchers.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -529,198 +502,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/util/DateUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilLeapYearShould.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/sql/Wrapper.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/javax/sql/DataSource.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Iterable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Collection.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/javax/sql/CommonDataSource.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Objects.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql-scripts/test-data.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/discounts/PriceCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="80">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/util/DateUtilLeapYearShould.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/discounts/PriceCalculatorShould.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar!/org/apache/commons/lang3/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.1.3.RELEASE/spring-jdbc-5.1.3.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/sql/Wrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/javax/sql/DataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="76" column="59" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="143" column="46" lean-forward="true" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/javax/sql/CommonDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql-scripts/test-data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepositoryJdbc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="433">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/data/MovieRepositoryIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="-646">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/data/MovieRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/model/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/platzi/javatests/movies/services/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="99" column="50" lean-forward="true" selection-start-line="99" selection-start-column="50" selection-end-line="99" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/platzi/javatests/movies/services/MovieServiceShould.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
